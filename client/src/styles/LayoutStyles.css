@@ -1,0 +1,85 @@
+.main{
+    padding: 10px;
+    height: 100vh;
+    
+}
+
+.layout{
+    display: flex;
+}
+.sidebar{
+   min-height: 100%;
+   width: 300px;
+   border-radius: 5px;
+   background-color: bisque; 
+   box-shadow: 0 0 2px gray;
+   margin-right: 20px;
+}
+.content{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    height: 10vh;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px rgb(11, 3, 3);
+    background-color: white;
+    
+
+}
+
+.body{
+    height: 85vh;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px rgb(11, 3, 3);
+    background-color: rgb(231, 224, 224);
+    
+}
+.menu{
+   margin-top:50px ; 
+}
+.logo h6{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px 0px;
+}
+.menu-item{
+    margin-top: 30px;
+}
+.menu-item a{
+    color:rgb(8, 6, 1);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.menu-item i{
+   font-size: 1.2rem;
+   margin:0 15px ; 
+}
+
+.active{
+    background-color: rgb(14, 154, 44);
+    /* color: black; */
+    padding: 10px;
+}
+.active a,.active i{
+    color: black;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: flex-end;
+    margin: 0 15px;
+}
+
+.header-content i{
+   margin-right: 20px;
+    font-size: 1.2rem;
+}
+.header-content a{
+    text-decoration: none;
+    color: blue;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
