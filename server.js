@@ -26,9 +26,9 @@ app.use(morgan('dev'));
 //   });
 // });
  
-app.use('/api/v1/user',require("./routes/userRoutes"));
-app.use("/api/v1/admin",require("./routes/adminRoutes"));
-app.use("/api/v1/doctor",require("./routes/doctorRoutes"));
+app.use('/v1/api/user',require("./routes/userRoutes"));
+app.use("/v1/api/admin",require("./routes/adminRoutes"));
+app.use("/v1/api/doctor",require("./routes/doctorRoutes"));
 
 
 
