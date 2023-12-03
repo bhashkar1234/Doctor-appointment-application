@@ -9,7 +9,7 @@ dotenv.config();
 
   
 connectDB();
-// rest of your code
+
 
 
 const app = express();
